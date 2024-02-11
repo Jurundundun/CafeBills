@@ -5,15 +5,11 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.UUID;
 
 @Getter
 @Setter
-public class BillDto {
-    private UUID id;
-    private LocalDateTime date;
+public class BillRequestDto {
     private double price;
-    private List<ProductDto> productList;
-
+    private LocalDateTime date;
+    private List<ProductRequestDto> productList;
 }
-

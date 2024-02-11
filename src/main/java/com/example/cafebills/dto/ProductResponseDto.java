@@ -7,9 +7,7 @@ import java.util.UUID;
 
 @Getter
 @Setter
-public class ProductDto {
+public class ProductResponseDto {
     private UUID id;
     private String name;
-
 }
-
